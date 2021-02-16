@@ -22,7 +22,14 @@ a:active  { color: red;  }
 
 /* This was used to format the image at the top of the webpage */
 
-img {
+.img-lady {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.img-links {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -36,7 +43,7 @@ hr {
   background-color: #A63D40;
   border: none;
   border-radius: 50px;
-  margin: 10%;
+  margin: 5%;
 }
 
 /* This code sets up a rounded background for segments of text */
